@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Catalog\Ui\DataProvider\Product\Form\Modifier\CustomOptions">
+        <plugin name="sn_custom_option"
+                type="Sn\FieldOnCustomOption\Plugin\Catalog\Ui\DataProvider\Product\Form\Modifier\CustomOptions"
+                sortOrder="1"/>
+    </type>
+</config>
